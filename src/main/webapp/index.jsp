@@ -11,7 +11,7 @@
     <div class="wrapper">
         <div class="glass-card">
             <h1>Welcome, <span class="highlight">${name != null ? name : "Dear Guest"}</span>!</h1>
-            <p>Please enter your Name to get a personalized greeting:</p>
+            <p>Please enter your Name to get a personalized Greeting:</p>
             <form action="welcome" method="get">
                 <input type="text" name="name" placeholder="Your Name" required />
                 <button type="submit">✨ Best wishes</button>
