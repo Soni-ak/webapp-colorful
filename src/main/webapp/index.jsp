@@ -10,7 +10,7 @@
 <body>
     <div class="wrapper">
         <div class="glass-card">
-            <h1>Welcome, <span class="highlight">${name != null ? name : "webapp Guest"}</span>!</h1>
+            <h1>Welcome, <span class="highlight">${name != null ? name : "webappGuest"}</span>!</h1>
             <p>Please enter your name to get a personalized greeting:</p>
             <form action="welcome" method="get">
                 <input type="text" name="name" placeholder="Your Name" required />
