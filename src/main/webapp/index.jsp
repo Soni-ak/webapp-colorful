@@ -14,7 +14,7 @@
             <p>Please enter your name to get a personalized greeting:</p>
             <form action="welcome" method="get">
                 <input type="text" name="name" placeholder="Your Name" required />
-                <button type="submit">✨ Say Hello</button>
+                <button type="submit">✨ Best wishes</button>
             </form>
         </div>
     </div>
